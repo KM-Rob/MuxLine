@@ -20,7 +20,7 @@ class MuxLine
 	begin(int Lines, int IN, int A, int B, int C, int max, int delau);
 	Reset(void);
 	
-	int readStep(void);
+	uint16_t readStep(void);
 
 };
 
